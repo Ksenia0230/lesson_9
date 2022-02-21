@@ -1,0 +1,225 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: "Lato";
+	color: #424551;
+}
+.part-1 {
+	max-width: 810px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+h1 {
+	padding-top: 50px;
+	font-size: 46px;
+	font-weight: 900;
+	color: #1e212c;
+	margin-bottom: 26px;
+	line-height: 1.3;
+}
+.date-time {
+	color: #787a80;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.date::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0px 9px 0px 0px;
+	background: url("../img/vector.svg") 0 1px /16px no-repeat;
+}
+.time::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0px 8px 0px 24px;
+	background: url("../img/time.svg") 0 1px /16px no-repeat;
+}
+.share {
+	color: #1e212c;
+	font-size: 16px;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+.facebook {
+	margin-right: 12px;
+	margin-left: 12px;
+}
+.linked {
+	margin-left: 12px;
+}
+.twitter {
+	min-height: 20px;
+}
+.image {
+	margin-bottom: 60px;
+}
+
+.text {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+.text-2 {
+	margin-bottom: 28px;
+	line-height: 1.6;
+}
+.text-3 {
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+
+.paragraph {
+	background: url("../img/braces.png") 0 0 no-repeat;
+	padding-left: 58px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 48px;
+}
+.article {
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+li {
+	background: url("../img/check.png") 0 5px no-repeat;
+	margin-bottom: 4px;
+	padding-left: 32px;
+	line-height: 1.6;
+}
+.list {
+	margin-bottom: 24px;
+}
+.article-2 {
+	line-height: 1.6;
+	margin-bottom: 69px;
+}
+.part-2 {
+	font-family: Verdana, sans-serif;
+	color: blue;
+	padding-left: 50px;
+	font-size: 30px;
+}
+.game {
+	min-height: 600px;
+	max-width: 1000px;
+	padding-bottom: 50px;
+}
+.line-1 {
+	margin-top: 50px;
+	width: 50px;
+	height: 90px;
+	background: rgb(243, 146, 162);
+}
+.line-1:hover + .line-2 {
+	visibility: visible;
+}
+.line-2 {
+	height: 40px;
+	background: rgb(240, 40, 74);
+	visibility: hidden;
+}
+.line-2:hover {
+	visibility: visible;
+}
+.line-2:hover + .line-3 {
+	visibility: visible;
+}
+.line-3 {
+	height: 100px;
+	width: 50px;
+	background: #460525;
+	margin: 0 0 0 auto;
+	visibility: hidden;
+}
+.line-3:hover {
+	visibility: visible;
+}
+.line-3:hover + .line-4 {
+	visibility: visible;
+}
+.line-4 {
+	height: 50px;
+	width: 500px;
+	margin: 0 0 0 auto;
+	background: #fa7a7a;
+	visibility: hidden;
+}
+.line-4:hover {
+	visibility: visible;
+}
+.line-4:hover + .line-5 {
+	visibility: visible;
+}
+.line-5 {
+	height: 100px;
+	width: 40px;
+	margin-left: 500px;
+	background: #787a80;
+	visibility: hidden;
+}
+.line-5:hover {
+	visibility: visible;
+}
+.line-5:hover + .line-6 {
+	visibility: visible;
+}
+.line-6 {
+	width: 200px;
+	height: 30px;
+	margin-left: 500px;
+	background: #1e212c;
+	visibility: hidden;
+}
+.line-6:hover {
+	visibility: visible;
+}
+.line-6:hover + .line-7 {
+	visibility: visible;
+}
+.line-7 {
+	height: 200px;
+	width: 30px;
+	visibility: hidden;
+	background: #98adec;
+	margin-left: 670px;
+}
+.line-7:hover {
+	visibility: visible;
+}
+.line-7:hover + .line-8 {
+	visibility: visible;
+}
+.line-8 {
+	width: 30px;
+	height: 30px;
+	visibility: hidden;
+	background: #65e9cc;
+	margin-left: 670px;
+}
+.line-8:hover {
+	visibility: visible;
+}
+.line-8:hover + .line-9 {
+	visibility: visible;
+}
+.line-9 {
+	height: 500px;
+	visibility: hidden;
+	background: url("../img/end.jpg") center no-repeat;
+}
+.line-9:hover {
+	visibility: visible;
+}
